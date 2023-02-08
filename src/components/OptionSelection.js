@@ -1,0 +1,25 @@
+import React from "react";
+
+export default function OptionSelection({ arrayItems, selectUsage }) {
+  return (
+    <>
+      
+      <h1 className="heading">React AI APP</h1>
+      
+      <div className="grid-main">
+        
+        {arrayItems.map((item) => {
+          return (
+            <button
+              className="grid-child"
+              onClick={() => selectUsage(item)}
+            >
+              <h3>{item.name}</h3>
+              <p>{item.description}</p>
+            </button>
+          );
+        })}
+      </div>
+    </>
+  );
+}
