@@ -5,6 +5,10 @@
 
 https://user-images.githubusercontent.com/73358116/217812906-8d572617-82ca-47f0-b21c-44cdf09e16c7.mov
 
+Installed "openai" package by npm. 
+Generated a private API key on https://openai.com/api/ and did the necessary configurations. 
+Used "openai.createCompletion" and "openai.createImage" modules.
+
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
