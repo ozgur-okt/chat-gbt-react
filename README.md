@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Using ChatGBT API in React
 
 
 
